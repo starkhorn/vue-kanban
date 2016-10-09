@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="tile is-ancestor">
-    <Lane v-for="title in lanes" :title="title" />
+    <lane v-for="title in lanes" :title="title" />
   </div>
 </template>
 

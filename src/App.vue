@@ -7,14 +7,13 @@
           <h1 class="title is-1">Vue Kanban</h1>
         </div>
 
-        <SwimLanes :lanes="[
+        <swim-lanes :lanes="[
           'TODO',
           'In Progress',
           'Done'
         ]" />
-        
-      </div>
 
+      </div>
     </div>
   </section>
 </div>
