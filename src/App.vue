@@ -7,11 +7,11 @@
           <h1 class="title is-1">Vue Kanban</h1>
         </div>
 
-        <div class="tile is-ancestor">
+        <SwimLanes>
           <Lane title="TODO" />
           <Lane title="In Progress" />
           <Lane title="Done" />
-        </div>
+        </SwimLanes>
       </div>
 
     </div>
@@ -21,10 +21,12 @@
 
 <script>
 import Lane from './components/Lane';
+import SwimLanes from './components/SwimLanes';
 
 export default {
   components: {
-    Lane
+    Lane,
+    SwimLanes
   }
 };
 </script>
